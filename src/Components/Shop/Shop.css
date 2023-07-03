@@ -1,0 +1,131 @@
+.h2{
+    font-family: 'poppins' ;
+    
+    
+  }
+
+ 
+  .image {
+    display: grid;
+    grid-template-areas:
+      "img1 img2 img3 img4"
+      "img1 img2 img5 img6";
+    width: 60%;
+    gap: 40px;
+    padding-left: 40px;
+  }
+  
+  .img {
+    width: 100%;
+    box-shadow: 1px 1px 2px lightgray;
+  }
+  
+  .i1 {
+    grid-area: img1;
+    width: 384px;
+    height: 640px;
+  }
+
+  
+  .i2 {
+    grid-area: img2;
+    width: 384px;
+    height: 640px;
+  }
+  
+  .i3 {
+    grid-area: img3;
+    width: 264px;
+    height: 288px;
+  }
+  
+  .i4 {
+    grid-area: img4;
+    width: 264px;
+    height: 288px;
+  }
+  
+  .i5 {
+    grid-area: img5;
+    grid-row-start: 2;
+    width: 264px;
+    height: 288px;
+  }
+  
+  .i6 {
+    grid-area: img6;
+    width: 264px;
+    height: 288px;
+  }
+  
+  
+  .h2{
+    font-family: 'poppins';
+  }
+
+  .main-banner2 {
+    display: flex;
+    width: 90%;
+    margin: 50px;
+    justify-content: center;
+    gap: 30px;
+  
+  }
+
+  
+  
+  .left-banner3 {
+    flex: 1;
+    box-shadow: 1px 1px 2px lightgray;
+    background: url("../public/img7.png");
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height: 360px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+    
+  
+ 
+  .left-banner4{
+    flex: 1;
+    box-shadow: 1px 1px 2px lightgray;
+    background: url("../public/img8.png");
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height: 360px;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+
+  .left-banner5 {
+    flex: 1;
+    box-shadow: 1px 1px 2px lightgray;
+    background: url("../public/img9.png");
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height: 360px;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+
+  .left-banner6 {
+    flex: 1;
+    box-shadow: 1px 1px 2px lightgray;
+    background: url("../public/img10.png");
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height: 360px;
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+  
+  
