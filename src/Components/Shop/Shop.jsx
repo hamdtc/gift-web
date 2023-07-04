@@ -2,8 +2,8 @@ import React from 'react'
 
 const Banner2 = () => {
   return (
-    <div class="main-banner2">
-    <div class="left-banner3">
+    <div className="main-banner2">
+    <div className="left-banner3">
     <img src="rating1.png" />
     
       <img src="vector4.png"> 
@@ -11,17 +11,17 @@ const Banner2 = () => {
       
        </div>
 
-    <div class="left-banner4">
+    <div className="left-banner4">
     <img src="rating2.png"/>
     <img src="vector4.png"></img>
        </div>
 
-    <div class="left-banner5">
+    <div className="left-banner5">
     <img src="rating3.png"/>
     <img src="vector3.png"></img>
     </div>
 
-    <div class="left-banner6">
+    <div className="left-banner6">
     <img src="rating4.png"/>
       <img src="vector3.png"></img>
    </div>    
@@ -31,4 +31,3 @@ const Banner2 = () => {
   )
 }
 
-export default Banner2
