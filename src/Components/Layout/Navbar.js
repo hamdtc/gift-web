@@ -1,6 +1,7 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-
+import { useNavigate } from "react-router-dom";
 export default function Navbar() {
+    const navigate = useNavigate();
     const path = window.location.pathname
     return (
         <nav className="nav">
@@ -8,11 +9,11 @@ export default function Navbar() {
             &nbsp;
             &nbsp;
             <ul>
-                <Link to="#">Home</Link>
-                <customLink to="#">Shop</customLink>
-                <customLink to="#">Blogs</customLink>
-                <customLink to="#">About</customLink>
-                <customLink to="#">Contact</customLink>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/shop">Shop</Link></li>
+                <li><Link to="/blogs">Blogs</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
 
             </ul>
             <ul>
