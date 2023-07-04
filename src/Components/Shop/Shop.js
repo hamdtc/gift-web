@@ -2,7 +2,7 @@ import "./Shop.css"
 export default function Shop() {
   return (
 
-    <div class='image'>
+    <div className='image'>
 
       <img src="./image1.png" alt=" " class="i1" >
 
