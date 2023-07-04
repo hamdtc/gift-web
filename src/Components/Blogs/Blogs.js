@@ -2,19 +2,19 @@ import "./Blogs.css"
 export default function Blogs() {
     return (
         <div id='container1'>
-      <div class="frame1">
+      <div className="frame1">
        <frame1>
-        <h2 class="heading">&larr;SELECT PAYMENT OPTION</h2>
+        <h2 className="heading">&larr;SELECT PAYMENT OPTION</h2>
        
         <form action="payment " >
-          <input type="radio" checked="radio button" class="r1" />
-          < input type="text"  name="cash on delivery"  placeholder=" cash on delivery" class="f1"/> <br/> <br/>
+          <input type="radio" checked="radio button" className="r1" />
+          < input type="text"  name="cash on delivery"  placeholder=" cash on delivery" className="f1"/> <br/> <br/>
           <input type="radio" />
-          <input type="text" name="PhonePay/Google Pay/BHIM UPI" placeholder='PhonePay/Google Pay/BHIM UPI' class="f3"/> <br/> <br/>
+          <input type="text" name="PhonePay/Google Pay/BHIM UPI" placeholder='PhonePay/Google Pay/BHIM UPI' className="f3"/> <br/> <br/>
           <input type="radio" />
           <input type="text" name="Net Banking" placeholder='Net Banking'/> <br/> <br/>
           
-          <div class="frames">
+          <div className="frames">
             
           <input type="radio" />
           Credit/Debit Card &nbsp;&nbsp;&nbsp;
@@ -41,10 +41,10 @@ export default function Blogs() {
       
        
       
-      <div class="vertical"/>
+      <div className="vertical"/>
       
-      <div class="col2">
-        <h2 class="heading">PRICE DETAILS (2 ITEMS)</h2>
+      <div className="col2">
+        <h2 className="heading">PRICE DETAILS (2 ITEMS)</h2>
         <frame2 src="price">
            Total&nbsp;&nbsp;&nbsp;Rs.5,598 <br/><br/>
            </frame2>
@@ -60,7 +60,7 @@ export default function Blogs() {
         <frame6>
           Total Amount &nbsp;Rs. 4,789
         </frame6>
-        <button class="order"> <h4>Pay and Place Order&rarr;</h4></button>
+        <button className="order"> <h4>Pay and Place Order&rarr;</h4></button>
         
         
         </div>

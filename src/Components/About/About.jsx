@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div  class="right-banner"> 
+    <div  className="right-banner"> 
         <img src="image.png" />
     </div>
   )
