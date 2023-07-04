@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import Banner from "./Components/Banner"
 
-import Shop from "./Components/Shop/Shop/Shop"
+import Shop from "./Components/Shop/Shop"
 import Blogs from "./Components/Blogs/Blogs"
 import About from "./Components/About/About"
 import Contact from "./Components/Contact/Contact"
