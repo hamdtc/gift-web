@@ -3,13 +3,13 @@ export default function Blogs() {
     return (
         <div id='container1'>
       <div className="frame1">
-       <frame1>
+       
         <h2 className="heading">&larr;SELECT PAYMENT OPTION</h2>
        
-        <form action="payment " >
-          <input type="radio" checked="radio button" className="r1" />
+       
+          <input type="radio" checked="radio button" />
           < input type="text"  name="cash on delivery"  placeholder=" cash on delivery" className="f1"/> <br/> <br/>
-          <input type="radio" />
+          <input type="radio" className="r2" />
           <input type="text" name="PhonePay/Google Pay/BHIM UPI" placeholder='PhonePay/Google Pay/BHIM UPI' className="f3"/> <br/> <br/>
           <input type="radio" />
           <input type="text" name="Net Banking" placeholder='Net Banking'/> <br/> <br/>
@@ -29,8 +29,8 @@ export default function Blogs() {
         
         
           
-        </form>
-        </frame1> <br/><br/>
+       
+        <br/><br/>
 
         <img src="payment icon.png"/>&nbsp;&nbsp;
         <img src="payment icon1.png"/>&nbsp;&nbsp;

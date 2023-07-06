@@ -2,32 +2,37 @@ import "./Shop.css"
 export default function Shop() {
   return (
 
+    <div className='h2'>
+         <h2> SHOP BY CATEGORIES</h2> 
+   
+
     <div className='image'>
 
-      <img src="./image1.png" alt=" " class="i1" >
+      <img src="./image1.png"  class="i1" >
 
       </img>
 
-      <img src="./image2.png" alt=" " class="i2" >
+      <img src="./image2.png" class="i2" >
 
       </img>
 
-      <img src='./image3.png' alt=" " class="i3" >
+      <img src='./image3.png'  class="i3" >
 
       </img>
 
-      <img src='./image4.png' alt=" " class="i4" >
+      <img src='./image4.png'  class="i4" >
 
       </img>
 
-      <img src='./image5.png' alt=" " class="i5" >
+      <img src='./image5.png'  class="i5" >
 
       </img>
 
-      <img src='./image6.png' alt=" " class="i6" >
+      <img src='./image6.png'  class="i6" >
 
       </img>
 
+    </div>
     </div>
   )
 }

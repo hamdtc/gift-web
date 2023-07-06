@@ -20,25 +20,11 @@
    
   }
   
-  .payment {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-    position: absolute;
-    width: 528px;
-    height: 496px;
-    left: 81px;
-    top: 236px;
-  }
   
-  .r1{
-    color: rgb(238, 58, 169);
-  }
+  
+  
   .f1{
-    box-sizing: 30px;
+    box-sizing: 20px;
     height:35px;
     width:300px ;
   }

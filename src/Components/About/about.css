@@ -2,23 +2,16 @@
     position: absolute;
     width: 233px;
     height: 64px;
-    top:150px;
-    left:150px;
+    margin-top: 50px;
+    margin-left: 150px;
     color: #0a0707;
     font-family: 'Poppins';
     font-style: bold;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 64px;
     }
     
-  .right-banner {
-    position: absolute;
-    width: 541px;
-    height: 728px;
-    left: 1099px;
-    top: 100px;
   
-    }
     
   .para {
     position: absolute;
@@ -26,13 +19,17 @@
     height: 264px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #302f2f;
   
     }
-    
+
+   
+    .f1{
+      font-weight: 700;
+      font-size: 50px;
+    }
   
-  
-  
+ 
