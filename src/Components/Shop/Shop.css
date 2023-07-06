@@ -11,8 +11,7 @@
     "image1 image2 image3 image4"
     "image1 image2 image5 image6";
   width: 60%;
-  gap: 40px;
-  padding-left: 40px;
+  
 }
 
 .img {
@@ -59,71 +58,3 @@
 }
 
 
-.h2 {
-  font-family: 'poppins';
-}
-
-.main-banner2 {
-  display: flex;
-  width: 90%;
-  margin: 50px;
-  justify-content: center;
-  gap: 30px;
-
-}
-
-
-
-.left-banner3 {
-  flex: 1;
-  box-shadow: 1px 1px 2px lightgray;
-  background: url("../../../public/image7.png");
-  background-position: center;
-  background-size: cover;
-  width: 240px;
-  height: 360px;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-
-
-
-.left-banner4 {
-  flex: 1;
-  box-shadow: 1px 1px 2px lightgray;
-  background: url("../../../public/image8.png");
-  background-position: center;
-  background-size: cover;
-  width: 240px;
-  height: 360px;
-  padding: 20px;
-  box-sizing: border-box;
-
-}
-
-.left-banner5 {
-  flex: 1;
-  box-shadow: 1px 1px 2px lightgray;
-  background: url("../../../public/image9.png");
-  background-position: center;
-  background-size: cover;
-  width: 240px;
-  height: 360px;
-  padding: 20px;
-  box-sizing: border-box;
-
-}
-
-.left-banner6 {
-  flex: 1;
-  box-shadow: 1px 1px 2px lightgray;
-  background: url('../../../public/image9.png');
-  background-position: center;
-  background-size: cover;
-  width: 240px;
-  height: 360px;
-  padding: 20px;
-  box-sizing: border-box;
-
-}
