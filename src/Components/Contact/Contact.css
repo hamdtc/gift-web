@@ -15,6 +15,7 @@
   Border:5px;
   background-color: #D2D2D2;
   margin-top: 60px;
+  font-size: 15px;
 }
 
 .f2{
@@ -42,6 +43,7 @@
   gap: 15px;
   background: #2D2D2D;
   border-radius: 8px;
+  color: #D2D2D2;
 }
 
 

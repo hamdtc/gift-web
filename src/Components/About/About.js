@@ -1,7 +1,8 @@
 import "./about.css"
 export default function About( ) {
     return (
-    <div className='head'>
+
+ <div className='head'>
         <h1>ABOUT US.</h1>
        
         <p className="para"> Avira caters to thoughtful shoppers who appreciate unique designs and top quality pieces you just can’t find elsewhere. We are constantly curating fresh new collections and looking for the next big thing our customers will love. Founded in Vienna in 2019, we are proud to be your Online Clothing Shop that you can rely on for our expert service and care. <br/><br/> 
@@ -22,5 +23,6 @@ export default function About( ) {
        
          
           </div>
+         
     )
 }

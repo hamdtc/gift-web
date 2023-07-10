@@ -4,35 +4,24 @@ export default function Shop() {
 
     <div className='h2'>
          <h2> SHOP BY CATEGORIES</h2> 
+
+      <div className='image'>
+       
+        <img src="./image1.png"    className="i1" />
+        
+        <img src="./image2.png"    className="i2" />
+         
+        <img src='./image3.png'    className="i3" />
+         
+        <img src='./image4.png'   className="i4" />
+         
+        <img src='./image5.png'    className="i5" />
+        
+        <img src='./image6.png'    className="i6" />
+        
+        
+        </div> 
    
-
-    <div className='image'>
-
-      <img src="./image1.png"  class="i1" >
-
-      </img>
-
-      <img src="./image2.png" class="i2" >
-
-      </img>
-
-      <img src='./image3.png'  class="i3" >
-
-      </img>
-
-      <img src='./image4.png'  class="i4" >
-
-      </img>
-
-      <img src='./image5.png'  class="i5" >
-
-      </img>
-
-      <img src='./image6.png'  class="i6" >
-
-      </img>
-
-    </div>
-    </div>
+</div>
   )
 }
