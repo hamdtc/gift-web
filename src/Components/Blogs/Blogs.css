@@ -20,29 +20,51 @@
    
   }
   
-  .payment {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 24px;
-    position: absolute;
-    width: 528px;
-    height: 496px;
-    left: 81px;
-    top: 236px;
+  .r1{
+    border-color: rgb(231, 46, 154);
   }
   
-  .r1{
-    color: rgb(238, 58, 169);
+  
+  .b1{
+    box-sizing: 20px;
+    height:35px;
+    width:300px ;
+    
   }
-  .f1{
-    box-sizing: 30px;
+
+  .b2{
+    box-sizing: 20px;
     height:35px;
     width:300px ;
   }
   
+  .b3{
+    box-sizing: 20px;
+    height:35px;
+    width:300px ;
+  }
+  .b4{
+    box-sizing: 20px;
+    height:35px;
+    width:300px ;
+  } 
+
+  .b5{
+    box-sizing: 20px;
+    height:35px;
+    width:300px ;
+  }
+
+  .b6{
+    height:25px ;
+    width:150px ;
+  }
+
+
+  .b7{
+    height:25px ;
+    width:150px ;
+  }
   .vertical {
     border: 1px solid #D2D2D2;
     height:700px;
