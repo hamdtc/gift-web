@@ -1,0 +1,58 @@
+.h2 {
+  font-family: 'poppins';
+
+
+}
+
+
+.image-shop {
+  display: grid;
+  grid-template-areas:
+    "image1 image2 image3 image4"
+    "image1 image2 image5 image6";
+  width: 60%;
+
+}
+
+.img {
+  width: 100%;
+  box-shadow: 1px 1px 2px lightgray;
+}
+
+.i1 {
+  grid-area: image1;
+  width: 384px;
+  height: 640px;
+}
+
+
+.i2 {
+  grid-area: image2;
+  width: 384px;
+  height: 640px;
+}
+
+.i3 {
+  grid-area: image3;
+  width: 264px;
+  height: 288px;
+}
+
+.i4 {
+  grid-area: image4;
+  width: 264px;
+  height: 288px;
+}
+
+.i5 {
+  grid-area: image5;
+  grid-row-start: 2;
+  width: 264px;
+  height: 288px;
+}
+
+.i6 {
+  grid-area: image6;
+  width: 264px;
+  height: 288px;
+}

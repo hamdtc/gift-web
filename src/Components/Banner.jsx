@@ -2,27 +2,27 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div class="main-banner">
-    <div class="left-banner">
+    <div className="main-banner">
+    <div className="left-banner">
     <small>Brands Everyone’s Crushing on</small><br/>
             <b>Explore All &rarr;</b>
         
     </div>
 
-    <div class="right-banner">
-    <div class="right-img">
+    <div className="right-banner">
+    <div className="right-img">
             <small>456 Items</small><br/>
             <b>Footwear &rarr;</b>
             
         </div>
 
-        <div class="sub-right-part">
-        <div class="sub-right-img1">
+        <div className="sub-right-part">
+        <div className="sub-right-img1">
             <small>680 Items</small><br/>
             <b>Sweaters &rarr;</b>
             
         </div> 
-        <div class="sub-right-img2">
+        <div className="sub-right-img2">
             <small>341 Items</small><br/>
             <b>Demins &rarr;</b>
             
