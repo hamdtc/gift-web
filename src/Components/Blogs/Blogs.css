@@ -83,8 +83,8 @@
     font-size: 18px;
     line-height: 32px;
     margin: 30px;
-    padding-left: 150px;
-    margin-left:350px;
+    padding-left: 30px;
+    margin-left:320px;
    
   }
   
@@ -102,8 +102,35 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1px 70px;
-    gap: 15px;
+    padding: 1px 130px;
+    gap: 12px;
     background: #2D2D2D;
     border-radius: 8px;
+    margin-top: 30px;
   }
+
+ 
+.price1{
+  padding-left: 320px;
+  color: black;
+}
+
+
+.price2{
+  padding-left: 220px;
+  color: green;
+}
+
+.price3{
+  padding-left: 220px;
+  color:black ;
+}
+ 
+.price4{
+  padding-left: 230px;
+  color: green;
+}
+
+.price5{
+  padding-left: 230px;
+}
