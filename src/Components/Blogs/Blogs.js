@@ -45,19 +45,19 @@ export default function Blogs() {
       <div className="col2">
         <h2 className="heading">PRICE DETAILS (2 ITEMS)</h2>
         <frame2 src="price">
-           Total&nbsp;&nbsp;&nbsp;Rs.5,598 <br/><br/>
+           Total<small className="price1">Rs.5,598 </small><br/><br/>
            </frame2>
            <frame3>
-           Discount on MRP&nbsp;&nbsp;&nbsp;&#8209;Rs. 809<br/><br/>
+           Discount on MRP<small className="price2">Rs. 809</small><br/><br/>
            </frame3>
            <frame4>
-           Coupon Discount&nbsp;&nbsp;&nbsp;Rs. 0<br/><br/>
+           Coupon Discount<small className="price3">Rs. 0</small><br/><br/>
         </frame4>
         <frame5>
-        Delivery Charge&nbsp;&nbsp;&nbsp; Free<hr/>
+        Delivery Charge<small className="price4"> Free </small><hr/>
         </frame5>
         <frame6>
-          Total Amount &nbsp;Rs. 4,789
+          Total Amount <small className="price5">Rs. 4,789</small>
         </frame6>
         <button className="order"> <h4>Pay and Place Order&rarr;</h4></button>
         
