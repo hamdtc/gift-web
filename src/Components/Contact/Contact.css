@@ -1,50 +1,61 @@
+
+
 .card {
   float: left;
   padding-left: 150px;
   padding-top: 80px;
   font-style: "poppins";
+  font-size: 2vmin;
 }
 
 .para {
-  font-size: 15px;
+  font-size: 2vmin;
   font-weight: 800;
+  padding-top: 10px;
 }
 
 .f1 {
-  width: 384px;
-  height: 48px;
+  width: 25vw;
+  height: 6vh;
   Border: 5px;
   background-color: #D2D2D2;
   margin-top: 60px;
   font-size: 15px;
+  border-radius: 6px;
 }
 
+
 .f2 {
-  width: 384px;
-  height: 48px;
+  width: 25vw;
+  height: 6vh;
   Border: 5px;
   background-color: #D2D2D2;
+  border-radius: 6px;
 }
 
 .f3 {
-  width: 384px;
-  height: 128px;
+  width: 25vw;
+  height: 10vh;
   Border: 5px;
   background-color: #D2D2D2;
-
-
+  border-radius: 6px;
 }
+
+
+
 
 .send {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 9px 178px;
+  width:25vw ;
+  height: 5vh;
   gap: 15px;
   background: #2D2D2D;
   border-radius: 8px;
   color: #D2D2D2;
+  font-size: 2vmin;
 }
 
 
@@ -53,19 +64,21 @@
   background-color: #DB6B97;
   color: white;
   margin-top: 120px;
-  padding-left: 50px;
+  padding-left: 60px;
   padding-top: 50px;
   padding-right: 300px;
   padding-bottom: 80px;
-  margin-left: 300px;
+  margin-left: 45vmin;
 
 }
 
 .image {
-  float: right;
-  Width: 184px;
-  Height: 214px;
-  margin-top: 500px;
-  margin-right: 20px;
+  float: left;
+  Width: 6vw;
+  Height: 30vh;
+  margin-top: 55vmin;
+  margin-right: 3vmin;
   background-position: fixed;
 }
+
+

@@ -1,7 +1,7 @@
 import "./Contact.css"
 export default function Contact( ) {
     return (
-        <div id="container1">
+        <div id="container-contact">
         <div className="card">
         <form>
             <h2> CONTACT US</h2>

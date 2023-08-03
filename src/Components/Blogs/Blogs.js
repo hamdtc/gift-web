@@ -1,7 +1,7 @@
 import "./Blogs.css"
 export default function Blogs() {
     return (
-        <div id='container1'>
+        <div id='container-blogs'>
       <div className="frame1">
        
         <h2 className="heading">&larr;SELECT PAYMENT OPTION</h2>
@@ -54,8 +54,10 @@ export default function Blogs() {
            Coupon Discount<small className="price3">Rs. 0</small><br/><br/>
         </frame4>
         <frame5>
-        Delivery Charge<small className="price4"> Free </small><hr/>
+        Delivery Charge<small className="price4"> Free </small>
+        
         </frame5>
+        <div className="horizontal"/>
         <frame6>
           Total Amount <small className="price5">Rs. 4,789</small>
         </frame6>

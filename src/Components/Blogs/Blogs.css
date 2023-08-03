@@ -1,21 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .container1 {
     width:960px;
     margin:0 auto;
   
   }
   
-  
-  
-  
   .frame1 {
-    width:450px;
+    width:35vw;
     float: left;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
-    margin: 40px;
+    margin: 45px;
     padding-left: 50px;
    
   }
@@ -27,89 +32,95 @@
   
   .b1{
     box-sizing: 20px;
-    height:35px;
-    width:320px ;
+    height:4vh;
+    width:20vw ;
+    margin-top: 18px;
     
   }
 
   .b2{
     box-sizing: 20px;
-    height:35px;
-    width:320px ;
+    height:4vh;
+    width:20vw ;
   }
   
   .b3{
     box-sizing: 20px;
-    height:35px;
-    width:320px ;
+    height:4vh;
+    width:20vw ;
   }
   .b4{
     box-sizing: 20px;
-    height:35px;
-    width:320px ;
+    height:4vh;
+    width:20vw ;
   } 
 
   .b5{
     box-sizing: 20px;
-    height:35px;
-    width:320px ;
+    height:4vh;
+    width:20vw ;
   }
 
   .b6{
-    height:25px ;
-    width:150px ;
+    height:4vh ;
+    width:10vw ;
   }
 
 
   .b7{
-    height:25px ;
-    width:150px ;
+    height:4vh ;
+    width:10vw ;
   }
   .vertical {
     border: 1px solid #D2D2D2;
-    height:700px;
+    height:80vh;
     position:absolute;
-    left: 600px;
+    left: 850px;
     top: 140px;
     
   }
   
   .col2{
-    width:450px;
+    width:38vw;
     float:left;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 2vmin;
     line-height: 32px;
-    margin: 30px;
+    margin: 50px;
     padding-left: 30px;
     margin-left:320px;
-   
+    
   }
   
-  .frame4{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+  .heading{
+    font-size: 3vmin;
+    margin-bottom: 20px;
   }
   
+.horizontal{
+  width: 25vw;
+  border: 2px solid #D2D2D2;
+  margin: 10px;
+}
   .order{
     color: #D2D2D2;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1px 130px;
+    padding: 6px 120px;
     gap: 12px;
     background: #2D2D2D;
-    border-radius: 8px;
+    border-radius: 6px;
     margin-top: 30px;
+    font-size: 2vmin;
   }
 
  
+
+
 .price1{
   padding-left: 320px;
   color: black;

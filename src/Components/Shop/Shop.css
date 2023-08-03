@@ -1,11 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .head-shop {
   font-family: 'poppins';
   margin:50px ;
-  height: 32px;
+  font-size: 2vmin;
   font-weight: 800;
   padding-left: 20px;
-   
-}
+   }
 
 
 .image-shop {
@@ -13,63 +20,76 @@
   grid-template-areas:
     "image1 image2 image3 image4"
     "image1 image2 image5 image6";
-  width: 60%;
-  gap: 32px;
+  width: 100%;
+  gap: 1rem;
+
   
 
 }
 
 .img {
-  width: 100%;
+  width: 100vw;
   box-shadow: 1px 1px 2px lightgray;
 }
 
 .i1 {
   grid-area: image1;
-  width: 398px;
-  height: 640px;
+  width: 25vw;
+  height: 75vh;
   padding: 20px;
+  background-size: cover;
+  
 
 }
 
 
 .i2 {
   grid-area: image2;
-  width: 398px;
-  height: 640px;
+  width: 25vw;
+  height: 75vh;
   padding: 20px;
+  background-size: cover;
+
 }
 
 .i3 {
   grid-area: image3;
-  width: 284px;
-  height: 288px;
+  width: 18vw;
+  height: 35vh;
   padding: 20px;
+  background-size: cover;
+
 
 }
 
 .i4 {
   grid-area: image4;
-  width: 284px;
-  height: 288px;
+  width: 18vw;
+  height: 35vh;
   padding: 20px;
+  background-size: cover;
+
 
 }
 
 .i5 {
   grid-area: image5;
   grid-row-start: 2;
-  width: 284px;
-  height: 288px;
+  width: 18vw;
+  height: 35vh;
   padding: 20px;
+  background-size: cover;
+
 
 }
 
 .i6 {
   grid-area: image6;
-  width: 284px;
-  height: 288px;
+  width: 18vw;
+  height:35vh ;
   padding: 20px;
+  background-size: cover;
+
 
 }
 
@@ -77,8 +97,9 @@
 .head-shop2 {
   font-family: 'poppins';
   margin:25px ;
-  height: 32px;
-  font-weight: 800;
+  font-weight: 10vw;
+  font-size: 2vmin;
+
   
    
 }
@@ -93,30 +114,38 @@
 
   .i7{
     grid-area: image7;
-    width: 280px;
-    height: 360px;
+    width: 16vw;
+    height: 45vh;
+    background-size: cover;
+
     
   }
 
  .i8{
     grid-area: image8;
-    height: 360px;
-    width:320px;
+    height: 45vh;
+    width:20vw;
     padding-left:60px ;
+    background-size: cover;
+
   }
 
   .i9{
     grid-area: image9;
-    height: 360px;
-    width: 320px;
+    height: 45vh;
+    width: 20vw;
     padding-left:60px ;
+    background-size: cover;
+
   }
 
   .i10{
     grid-area: image10;
-    height: 360px;
-    width:320px;
+    height: 45vh;
+    width:20vw;
     padding-left:60px ;
+    background-size: cover;
+
   }
 
   .small-shop{
@@ -125,7 +154,7 @@
   }
 
 .h2-shop{
-  font-size: 20px;
+  font-size: 7vmin;
 }
 
 .product-shop{
@@ -136,11 +165,14 @@
   align-items: center;
   gap: 8px 80px;
   padding: 8px ;
-  width: 270px;
-  height: 40px;
+  width: 17vw;
+  height: 4vh;
+  font-size: 2vmin;
+  margin-top: 30px;
+  background-size: cover;
+
   
-    
-  }
+}
 
 .shop1{
   padding-left: 55px;
@@ -150,3 +182,5 @@
 .v1-shop{
     padding-left: 180px;
   }
+
+  

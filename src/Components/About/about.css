@@ -1,7 +1,14 @@
+*{
+  margin: 0px;
+  }
+
+  .body{
+    box-sizing: border-box;
+  }
+
 .head {
     position: absolute;
-    width: 233px;
-    height: 64px;
+    font-size: 3vmin;
     margin-top: 50px;
     margin-left: 150px;
     color: #0a0707;
@@ -15,12 +22,12 @@
     
   .para {
     position: absolute;
-    width: 601px;
-    height: 264px;
+    width: 33vw;
+    height: 35vh;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 2vmin;
     line-height: 24px;
     color: #302f2f;
   
@@ -31,10 +38,11 @@
   
    .image-about {
     position: absolute;
-    width: 541px;
-    height: 728px;
-    left: 930px;
+    width: 50vw;
+    height: 20vh;
+    left: 990px;
     top: 1px;
    }
 
-   
+  
+

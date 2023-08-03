@@ -10,16 +10,16 @@ export default function About( ) {
        
        <div className="frame-about">
         <div className="frame1-about"/>
-        <b> 50k+</b><br/>
+        <b className="about1"> 50k+</b><br/>
         <small>Happy customers </small>
 
-        <div className="frame2-about"/>
-        <b> 60+</b><br/>
-        <small>Top Partners</small>
+        <div className="frame2-about">
+        <b className="about2">60+</b><br/>
+        <small>Top Partners</small></div>
 
-        <div className="frame3-about"/>
-        <b> 5+</b> <br/>
-        <small>Years Of Trust </small>
+        <div className="frame3-about">
+        <b className="about3"> 5+</b> <br/>
+        <small>Years Of Trust </small></div>
         
         
         </div>

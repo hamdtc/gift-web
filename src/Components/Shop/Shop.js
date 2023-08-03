@@ -75,6 +75,8 @@ export default function Shop() {
               <button className="product-shop">Add To Cart</button>
               </div>
             </div>
+
+           
             
 
             
